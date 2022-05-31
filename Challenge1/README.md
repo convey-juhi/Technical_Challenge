@@ -30,3 +30,20 @@ Step 1 :  Initialize the terraform repository by using the command :
 Step 2 : Run 'terraform plan' command to verify the resources that will be created by this repository
 
 Step 3:  Run 'terraform apply -auto-approve' to create the infrastructure resources for the Three-Tier Application.
+
+**Resource that will be created**
+
+    1. VPC
+    2. Subnets (Public and Private)
+    3. Security Groups
+    4. Route Tables
+    5. Nat Gateways
+    6. Internet Gateway
+    7. EC2 Instances
+    8. Launch Templates
+    9. Autoscaling Groups
+    10. LoadBalancers
+    11. Database
+
+![three-tier-app1 drawio](https://user-images.githubusercontent.com/106310000/171252963-61d45550-b6c0-487c-accc-2900082a48db.png)
+
