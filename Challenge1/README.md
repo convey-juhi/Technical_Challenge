@@ -1,2 +1,2 @@
-# Technical_Challenge
+# Three-Tier Web Application
 Technical Challenges
