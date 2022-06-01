@@ -40,4 +40,4 @@ def test_objectKeyValue_case3():
     obj_key_value.print = lambda s : output.append(s)
 
     output = obj_key_value.objectKeyValue()
-    assert output == 'a'
+    assert output != 'a'
