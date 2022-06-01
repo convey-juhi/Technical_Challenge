@@ -1,11 +1,14 @@
+# Configuring the AWS Provider
 provider "aws" {
   region = "us-east-1"
 }
 
+# Calling the VPC module to create the network resources
 module "vpc" {
   source = "./modules/vpc"
 }
 
+# Calling the EC2 module to create ec2 instances and its attached resources
 module "ec2" {
   source         = "./modules/ec2"
   web_subnet_ids = [module.vpc.app-subnet-public-az1, module.vpc.app-subnet-public-az2]
@@ -19,6 +22,7 @@ module "ec2" {
   ]
 }
 
+# Calling th Database module for database creation
 module "database" {
   source        = "./modules/database"
   db_subnet_ids = module.vpc.db_subnet_group
