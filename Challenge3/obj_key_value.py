@@ -2,12 +2,13 @@
 
 import json ;
 
-# Get the object and key as the input
-inputObject = input('Please enter the object in the form of key-value pair ')
-inputKey = input('Please enter the key to find its value ')
-
 # Function which find thes value based on input object and key provided.
-def objectKeyValue(inputObject,inputKey):
+def objectKeyValue():
+    
+    # Get the object and key as the input
+    inputObject = input('Please enter the object in the form of key-value pair ')
+    inputKey = input('Please enter the key to find its value ')
+
     # Converts the JSON object into Python dict
     currentObject = json.loads(inputObject)
 
@@ -24,4 +25,5 @@ def objectKeyValue(inputObject,inputKey):
     return(currentObject)
 
 # Print the value of the object
-print(objectKeyValue(inputObject,inputKey))
+if __name__ == '__main__':
+    print(objectKeyValue())
