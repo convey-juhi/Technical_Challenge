@@ -14,4 +14,16 @@ value = a
 
 To execute this script, input the object and the key in the above mentioned format to print its value.
 
-Command : **python3 object-key-value.py**
+Command : **python3 obj_key_value.py**
+
+**To run the tests:**
+
+The test cases contains 2 Positive Use Case and 1 Negative Use Case.
+
+Prequisite : pytest 
+Steps : sudo apt install pip
+         pip install pytest
+         
+Command to run the test:
+
+pytest -v test_obj_key_value.py
