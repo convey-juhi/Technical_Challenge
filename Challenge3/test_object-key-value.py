@@ -1,3 +1,5 @@
+# This script contains the test cases for the obj_key_value.py Python script
+
 import obj_key_value ;
 
 #Positive Test Case 1
