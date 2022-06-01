@@ -1,3 +1,5 @@
+# This script calculates the key based on the Object and Key passed to it.
+
 import json ;
 
 # Get the object and key as the input
