@@ -1,3 +1,5 @@
+# This terraform fill will created a 3-tier architecture in AWS Cloud
+
 # Configuring the AWS Provider
 provider "aws" {
   region = "us-east-1"
