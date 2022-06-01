@@ -1,3 +1,6 @@
+# This script calculates the metadata of an EC2 instance. To get the complete metadata enter "null"
+# It will also get the value of the key based on the key entered.
+
 import json ;
 import requests ;
 
