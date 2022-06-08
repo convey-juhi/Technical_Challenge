@@ -26,7 +26,7 @@ def createMetaDataJSONRecursively(subUrl) :
   return jsonStructure ;
 
 # Get the key as an input from the user and print the corresponding value
-inputKey = input('enter key') ;
+inputKey = input('enter key: ') ;
 inputKey=inputKey.strip();
 print('inputKey is = ',inputKey)
 result=createMetaDataJSONRecursively('') ;
